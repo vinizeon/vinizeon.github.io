@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscreva-se no PitchPoint</title>
+    <style>
+        body {
+            background-image: url('icons/BackgroundBALLpark.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ff8b07;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        img.captcha-image {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .btn-primary {
+            background-color: #0a2f53;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inscreva-se no PitchPoint</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Seu Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Sua Senha" required>
+            </div>
+            <div class="form-group">
+                <img src="icons/captchac.png" alt="Captcha Image" class="captcha-image">
+            </div>
+            <div class="form-group">
+                <input type="text" name="captcha" placeholder="Digite o Captcha" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-primary">Inscrever-se</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

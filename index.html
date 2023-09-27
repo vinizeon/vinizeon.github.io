@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/ppico.ico" type="image/x-icon">
+    <title>PitchPoint</title>
+    <!-- Link do Bootstrap para o CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link do CSS Customizado -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Utilizando o Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Utilizando NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">PitchPoint</a>
+            <img src="icons/ppico.ico" alt="PitchPoint Icon" img width="80px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PremiumPitch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inscreva-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Header -->
+    <header class="jumbotron text-center bg-image">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo ao PitchPoint</h1>
+            <p class="lead">Crie seu time dos sonhos e domine a liga!</p>
+            <a href="signup.html" class="btn btn-primary btn-lg">Inscreva-se e comece a jogar!</a>
+        </div>
+    </header>
+
+    <!-- Seção "Como Jogar" -->
+    <section class="container text-center my-5">
+        <h2 class="mb-4">Como jogar</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature">
+                    <img src="icons/player.jpg" alt="Ícone Baseball">
+                    <h3>Crie seu time</h3>
+                    <p>Escolha os jogadores, monte seu elenco e faça decisões estratégicas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <img src="icons/stats.jpg" alt="Ícone Stats">
+                    <h3>Análise de estatísticas</h3>
+                    <p>Acesse estatísticas detalhadas oficiais da MLB e faça suas decisões com precisão.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                <img src="icons/trofeu.jpg" alt="Ícone Trófeu">
+                <h3>Jogue pela glória</h3>
+                <p>Dispute contra outros técnicos ao redor do mundo e batalhe pelo campeonato.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CTA (Call To Action) -->
+    <section class="container-fluid cta bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2 class="mb-3">Junte-se hoje!</h2>
+            <p class="lead">Inscreva-se agora e comece sua jornada em rumo à glória no melhor fantasy game de baseball do mundo.</p>
+            <a href="signup.html" class="btn btn-primary btn-lg">Inscrever-se</a>
+        </div>
+    </section>
+
+ <!-- Seção das funções premium (PremiumPitch) -->
+    <section class="container my-5">
+        <h2 class="mb-4">Seja PremiumPitch!</h2>
+        <ul class="nav nav-tabs" id="premiumTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="feature1-tab" data-toggle="tab" href="#feature1" role="tab" aria-controls="feature1" aria-selected="true">Informações e análises profissionais</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="feature2-tab" data-toggle="tab" href="#feature2" role="tab" aria-controls="feature2" aria-selected="false">Banco de reservas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="feature3-tab" data-toggle="tab" href="#feature3" role="tab" aria-controls="feature3" aria-selected="false">Ligas Premium com prêmios em dinheiro</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="premiumTabContent">
+            <div class="tab-pane fade show active" id="feature1" role="tabpanel" aria-labelledby="feature1-tab">
+                <div class="feature">
+                    <img src="icons/17902.jpg" alt="Premium Icon 1">
+                    <h3>Análise por Scouts Licenciados</h3>
+                    <p>Receba informações detalhadas dos melhores scouts da liga para tomar decisões estratégicas precisas.</p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="feature2" role="tabpanel" aria-labelledby="feature2-tab">
+                <div class="feature">
+                    <img src="icons/banco.jpg" alt="Premium Icon 2">
+                    <h3>Banco de Reservas</h3>
+                    <p>Mantenha seu time forte com jogadores substitutos prontos e disponíveis quando necessário, mantendo a competitividade em alta no jogo.</p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="feature3" role="tabpanel" aria-labelledby="feature3-tab">
+                <div class="feature">
+                    <img src="icons/moneybola.jpg" alt="Premium Icon 3">
+                    <h3>Ligas Exclusivas e Prêmios em Dinheiro</h3>
+                    <p>Entre em ligas exclusivas e concorra por prêmios de até 4 mil reais, mostrando suas habilidades de gerenciamento de time e competindo por recompensas em dinheiro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (PitchPoint e Direitos Reservados) -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 PitchPoint</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

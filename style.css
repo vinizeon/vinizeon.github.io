@@ -1,0 +1,111 @@
+/* Barra de navegação */
+.navbar {
+    background-color: #0a2f53 !important; /* Cor de fundo */
+}
+
+/* Tamanho do logotipo */
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+
+/* Estilo dos links de navegação */
+.navbar-nav .nav-link {
+    color: #fff !important; /* Cor do texto */
+    font-weight: bolder; /* Texto mais forte */
+    margin-right: 15px; /* Espaço à direita */
+    transition: color 0.3s ease; /* Efeito de cor suave */
+}
+
+/* Estilo dos links de navegação quando o mouse passa por cima */
+.navbar-nav .nav-link:hover {
+    color: #4d9df1 !important; /* Cor do texto ao passar o mouse */
+}
+
+/* Caixa de destaque */
+.jumbotron {
+    background-color: #021a31; /* Cor de fundo */
+    padding: 150px 0; /* Espaçamento interno superior e inferior */
+    border-radius: 0; /* Borda sem curvas */
+}
+
+/* Fundo de imagem com texto branco */
+.bg-image {
+    background-image: url('icons/redsox.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Cobrir o espaço disponível */
+    background-position: center; /* Centralizar a imagem */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Tamanho do título grande */
+.display-4 {
+    font-size: 3rem; 
+}
+
+/* Caixa de recurso */
+.feature {
+    background-color: #fff; /* Cor de fundo */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda com curvas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 30px; /* Espaço inferior */
+}
+
+/* Tamanho da imagem no recurso */
+.feature img {
+    width: 250px; /* Largura */
+    height: 200px; /* Altura */
+    margin-bottom: 15px; /* Espaço inferior */
+}
+
+/* Tamanho do título do recurso */
+.feature h3 {
+    font-size: 1.5rem; 
+}
+
+/* Chamada para ação (CTA) */
+.cta {
+    background-color: #414850; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 100px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Tamanho do título da CTA */
+.cta h2 {
+    font-size: 2.5rem; 
+}
+
+/* Tamanho do texto da CTA */
+.cta p {
+    font-size: 1.2rem; 
+    margin-bottom: 30px; /* Espaço inferior */
+}
+
+/* Botão principal */
+.btn-primary {
+    background-color: #ff8b07; /* Cor de fundo */
+    border: none; /* Sem borda */
+    font-weight: bolder; /* Texto mais forte */
+}
+
+/* Estilo do botão principal ao passar o mouse */
+.btn-primary:hover {
+    background-color: #ff7300; /* Cor de fundo ao passar o mouse */
+}
+
+/* Rodapé */
+.footer {
+    background-color: #343a40; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Fonte padrão para todo o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
